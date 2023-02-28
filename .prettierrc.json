@@ -1,0 +1,21 @@
+{
+  "overrides": [
+    {
+      "files": ["*.yaml", "*.json"],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 2,
+        "semi": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "useTabs": true
+      }
+    }
+  ]
+}
