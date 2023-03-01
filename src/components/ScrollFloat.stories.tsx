@@ -21,4 +21,13 @@ const Template: ComponentStory<typeof ScrollFloat> = (args) => (
 export const Primary = Template.bind({});
 Primary.args = {
   data: videos,
+  itemContent: (index) => {
+    const item = videos[index];
+    return (
+      <>
+        <h2>{item.name}</h2>
+        <p>{item.description}</p>
+      </>
+    );
+  },
 };
