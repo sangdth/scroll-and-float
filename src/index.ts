@@ -1,5 +1,1 @@
-const test = 'hello world';
-
-console.log({
-	test,
-});
+export { ScrollFloat, type ScrollFloatProps } from './components';

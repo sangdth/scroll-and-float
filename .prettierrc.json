@@ -13,8 +13,7 @@
         "tabWidth": 2,
         "semi": true,
         "trailingComma": "all",
-        "bracketSpacing": true,
-        "useTabs": true
+        "bracketSpacing": true
       }
     }
   ]
