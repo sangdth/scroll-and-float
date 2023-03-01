@@ -13,7 +13,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "build:storybook": "build-storybook"
+    "build:storybook": "build-storybook",
+    "build:ts": "tsc ./tsconfig.json --emitDeclarationOnly --declaration",
+    "lint": "TIMING=1 eslint .",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -35,8 +39,12 @@
     "babel-loader": "^8.3.0",
     "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "^0.6.11",
     "prettier": "2.8.4",
     "react": "18.2.0",
