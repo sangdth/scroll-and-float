@@ -2,25 +2,30 @@
   "name": "scroll-and-float",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "author": "Sang Dang",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "jest",
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev -p 3000",
     "build:storybook": "storybook build --docs",
     "build:ts": "tsc ./tsconfig.json --emitDeclarationOnly --declaration",
     "lint": "TIMING=1 eslint .",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-virtuoso": ">=4"
+  },
   "devDependencies": {
     "@babel/core": "7.21.0",
     "@babel/preset-env": "7.20.2",
@@ -56,10 +61,5 @@
     "storybook-dark-mode": "3.0.0-canary.191.4282.0",
     "typescript": "4.9.5",
     "webpack": "5.75.0"
-  },
-  "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0",
-    "react-virtuoso": ">=4.0.0"
   }
 }

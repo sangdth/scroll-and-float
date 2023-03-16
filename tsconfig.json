@@ -28,8 +28,9 @@
     "src/**/*.tsx"
   ],
   "exclude": [
-    "src/**/*.test.ts",
-    "src/**/*.test.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.stories.tsx",
     "*.yaml",
     "build",
     "dist",

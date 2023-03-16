@@ -119,4 +119,124 @@ export const videos = [
     description:
       'In this TED Talk, psychologist Susan Pinker explores the importance of social connections when it comes to our health and longevity.',
   },
+  {
+    name: 'How to Draw Faces',
+    link: 'https://www.youtube.com/watch?v=FDz_ElB6dRA',
+    description:
+      'In this video, you will learn the basic techniques for drawing realistic faces.',
+  },
+  {
+    name: 'Van Gogh: The Immersive Experience',
+    link: 'https://www.youtube.com/watch?v=rvzISF7TzsQ',
+    description:
+      'Take a virtual tour of the world of Vincent van Gogh in this immersive experience.',
+  },
+  {
+    name: 'Art History: The Baroque Period',
+    link: 'https://www.youtube.com/watch?v=vlRJ_eLzPNQ',
+    description:
+      'Learn about the Baroque period in art history, including its key artists and techniques.',
+  },
+  {
+    name: 'Plein Air Painting Tutorial',
+    link: 'https://www.youtube.com/watch?v=zHlLwDXvbKk',
+    description:
+      'Follow along with this outdoor painting tutorial to learn the basics of plein air painting.',
+  },
+  {
+    name: 'How to Make a Clay Sculpture',
+    link: 'https://www.youtube.com/watch?v=uRvLlWkx8Ow',
+    description:
+      'In this video, you will learn how to make a clay sculpture step by step.',
+  },
+  {
+    name: 'Street Art Documentary',
+    link: 'https://www.youtube.com/watch?v=7VZT6hvZQo0',
+    description:
+      'Explore the world of street art in this documentary that showcases the work of top artists.',
+  },
+  {
+    name: 'Calligraphy for Beginners',
+    link: 'https://www.youtube.com/watch?v=K5J5nZd9M2M',
+    description:
+      'Learn the basics of calligraphy and brush lettering with this tutorial for beginners.',
+  },
+  {
+    name: 'The Art of Photography',
+    link: 'https://www.youtube.com/watch?v=KjZkPoncYzQ',
+    description:
+      'Explore the art and technique of photography in this in-depth video course.',
+  },
+  {
+    name: 'Street Photography Tips',
+    link: 'https://www.youtube.com/watch?v=y6Gp1UVdCtg',
+    description:
+      'Discover tips and techniques for taking great street photography in this tutorial.',
+  },
+  {
+    name: 'Digital Painting Tutorial',
+    link: 'https://www.youtube.com/watch?v=cytG9ZGn-_g',
+    description:
+      'Learn how to create digital paintings from start to finish with this step-by-step tutorial.',
+  },
+  {
+    name: 'The Art of Storyboarding',
+    link: 'https://www.youtube.com/watch?v=0K6aBZQ5YTw',
+    description:
+      'Learn about the fundamentals of storyboarding, and how it can help you bring your artistic vision to life.',
+  },
+  {
+    name: 'Creating Digital Art with Procreate',
+    link: 'https://www.youtube.com/watch?v=mTlFeMFvYGE',
+    description:
+      'Discover how to use the popular iPad app, Procreate, to create stunning digital art pieces.',
+  },
+  {
+    name: 'The History of Impressionism',
+    link: 'https://www.youtube.com/watch?v=04wyGK6k6HE',
+    description:
+      'Take a journey through the history of impressionism, and learn about the artists who made this style famous.',
+  },
+  {
+    name: 'Basics of Watercolor Painting',
+    link: 'https://www.youtube.com/watch?v=sC8gUT0lfBk',
+    description:
+      'Explore the basics of watercolor painting, and discover the techniques and tools you need to get started.',
+  },
+  {
+    name: 'Pop Art and its Influence on Modern Culture',
+    link: 'https://www.youtube.com/watch?v=JbWCJkzUxqs',
+    description:
+      'Learn about the pop art movement, and how its influence can still be seen in modern culture today.',
+  },
+  {
+    name: 'The Art of Calligraphy',
+    link: 'https://www.youtube.com/watch?v=WOSrXnI3LzQ',
+    description:
+      'Discover the beauty of calligraphy, and learn the techniques used to create stunning hand-lettered pieces.',
+  },
+  {
+    name: 'The Surrealist Movement',
+    link: 'https://www.youtube.com/watch?v=mx5_RmU6WJw',
+    description:
+      'Explore the surrealist movement in art, and the unique techniques used to create these dreamlike and imaginative pieces.',
+  },
+  {
+    name: 'Creating Abstract Art with Acrylics',
+    link: 'https://www.youtube.com/watch?v=mf5g6_8hRyc',
+    description:
+      'Learn how to create abstract art using acrylic paints, and discover the endless possibilities of this style.',
+  },
+  {
+    name: 'The Art of Origami',
+    link: 'https://www.youtube.com/watch?v=UcK4b1dCZe8',
+    description:
+      'Discover the ancient art of origami, and learn the techniques used to create intricate and beautiful paper sculptures.',
+  },
+  {
+    name: 'Famous Art Heists in History',
+    link: 'https://www.youtube.com/watch?v=CuQN2w_BK7M',
+    description:
+      'Explore some of the most famous art heists in history, and learn about the people and events that made them possible.',
+  },
 ];

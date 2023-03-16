@@ -24,10 +24,10 @@ Primary.args = {
   itemContent: (index) => {
     const item = videos[index];
     return (
-      <>
-        <h2>{item.name}</h2>
-        <p>{item.description}</p>
-      </>
+      <div style={{ height: 70, padding: 0, margin: 0 }}>
+        <h2 style={{ padding: 0, margin: 0 }}>{item.name}</h2>
+        <p style={{ padding: 0, margin: 0 }}>{item.description}</p>
+      </div>
     );
   },
 };
